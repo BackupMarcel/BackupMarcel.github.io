@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --branch master"
+    "deploy": "gh-pages -d build --branch main --repo https://github.com/BackupMarcel/BackupMarcel.github.io.git"
   },
   "eslintConfig": {
     "extends": [
