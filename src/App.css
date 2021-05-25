@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.layout {
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layout .layout-content {
+    margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 300px;
+    margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.ant-form .ant-form-item {
+    margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-form .ant-form-item-label {
+    padding: 0 0 3px;
+}
+
+.ant-form .ant-form-item-label > label {
+    font-size: 1.17em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 0;
+}
+
+.ant-form .ant-form-item.text .ant-form-item-control .ant-form-item-control-input {
+    min-height: inherit;
+}
+
+.button-step {
+    width: 100%;
+}
+
+.button-submit {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+}
+
+.icon-input {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.properties-content .slick-dots {
+    top: -11px;
+}
+
+.properties-content .slick-dots li button {
+    background: #1890ff;
+    opacity: 0.4;
+    height: 7px;
+}
+
+.properties-content .slick-dots li.slick-active button {
+    background: #1890ff;
+    opacity: 1;
+}
+
+.form-crypto-result {
+
+}
+
+.form-crypto-result h3 {
+    margin-bottom: 5px;
+}
+
+.form-crypto-result .ant-result-title {
+    font-size: 1.2em;
+}
+
+.form-crypto-result .ant-result {
+    padding: 0;
+}
+
+.form-crypto-result .ant-result-icon {
+    margin-bottom: 0;
+}
+.form-crypto-result .ant-result-icon > span {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+label > div > small {
+    color: #aaaaaa;
+    font-size: 0.7em;
+}
+
+.input-hide {
+    filter: blur(3px);
+}
+
+.input-hide:focus,
+.input-hide:hover {
+    filter: blur(0);
 }
